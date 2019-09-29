@@ -1,0 +1,32 @@
+{
+  "name": "happynessandco",
+  "version": "1.0.0",
+  "description": "A lil bakery website",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-stylus": "^0.20.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-remove": "^0.1.0",
+    "jquery": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennminerva/happynessandco.git"
+  },
+  "author": "Jenn Minerva <jenn@jennminerva.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennminerva/happynessandco/issues"
+  },
+  "homepage": "https://github.com/jennminerva/happynessandco#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^0.1.13"
+  },
+  "scripts": {
+    "build": "grunt",
+    "test": "grunt test"
+  }
+}

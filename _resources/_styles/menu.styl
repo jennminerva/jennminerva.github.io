@@ -1,0 +1,141 @@
+.FoodMenuContainer p {
+	margin: 2rem 0 0 0;
+}
+@media laptop {
+	.FoodMenuContainer .ContentContainer {
+		float: left;
+		position: relative;
+		top: 3rem;
+		margin: 10rem 6rem;
+	}
+}
+.MenuContentContainer {
+	max-width: 375px;
+	height: 57rem;
+}
+@media tablet {
+	.MenuContentContainer {
+		height: 65rem;
+	}
+}
+button .FoodMenuContainer {
+	margin: 4rem 0;
+}
+.FoodMenu {
+	margin: 2.5rem 0;
+}
+.FoodMenuPricing {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style-type: none;
+	font-size: 1.3rem;
+	margin: 4rem 0;
+	padding: 0;
+	line-height: 175%;
+}
+@media tablet {
+	.FoodMenuPricing {
+		margin: 4rem 0;
+	}
+}
+@media laptop {
+	.FoodMenuPricing {
+		margin: 4rem 0;
+	}
+}
+.FoodMenuPricing li {
+	width: 50%;
+}
+.FoodMenuList {
+	margin: 4rem 5rem;
+	clear: both;
+	overflow: auto;
+}
+@media tablet {
+	.FoodMenuList {
+		margin: 9rem 2rem 9rem 8rem;
+		}
+}
+@media laptop {
+	.FoodMenuList {
+		clear: none;
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+		top: 8rem;
+	}
+}
+.FoodMenuList dt {
+	font-size: 1.5rem;
+	margin: 1rem 0;
+	color: #ff3431;
+}
+.FoodMenuList dd {
+	margin: 0 0 4rem 0;
+	line-height: 150%;
+	font-size: 1.3rem;
+}
+@media laptop {
+	.FoodMenuListItem {
+		width: 50%;
+		padding: 0 5rem;
+	}
+	.FoodMenuListItemMiddle {
+		position: relative;
+		left: -1rem
+	}
+	.FoodMenuListItemRight {
+		position: relative;
+		right: 2rem;
+	}
+}
+.FoodMenuHeading {
+	margin: 0 0 6rem 0;
+	clear: both;
+	width: 100%;
+	color: --color-black
+}
+@media tablet {
+	.FoodMenuHeading {
+		margin: 5rem 0
+	}
+}
+@media laptop {
+	.FoodMenuHeading {
+		margin: 5rem 5rem;
+		clear: both;
+	}
+}
+.FoodMenuHeading.Second {
+	margin-top: 9rem;
+}
+@media laptop {
+	.FoodMenuHeading.Second {
+		margin-top: 12rem;
+	}
+}
+@media desktop {
+	.FoodMenuHeading.Second {
+		margin-top: 10rem;
+	}
+}
+// The "FullWidth" portion of the following class names refers to the full screen width food menu at the laptop breakpoint
+
+@media laptop {
+	.First {
+		position: relative;
+		top: 13rem;
+		left 4.7rem;
+	}
+	.HeadingSmall.FullWidth {
+		margin: 22rem 6rem 5rem 9rem;
+	}
+	.FoodMenuList.FullWidth {
+		margin: 0 3rem;
+		top: 0;
+	}
+	.FoodMenuListItem.FullWidth {
+		width: 33%;
+	}
+}
